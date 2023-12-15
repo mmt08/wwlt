@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Контакты</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=API_KEY" type="text/javascript"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>КК365</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a class="nav_link" href="k.html">Главная</a></li>
+                <li><a class="nav_link" href="kt.html">Каталог</a></li>
+                <li><a class="nav_link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <section>
+    <main>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="subject">Тема:</label>
+            <input type="text" id="subject" name="subject">
+            
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message"></textarea>
+            
+        
+            <label for="custom">Произвольное поле:</label>
+            <input type="text" id="custom" name="custom">
+            
+            <input type="submit" value="Отправить">
+          </form>
+          
+          <h2>Адрес</h2>
+          
+          <p>Контактный номер телефона интернет-магазина: 8-800-555-35-35</p>
+          <p>Адрес: ул. Примерная, 123, г. Примерный</p>
+          <p>Email: example@example.com</p>
+          
+          <p>Информация о магазине: У НАС ЛУЧШИЕ КЛАВЫ КРУГЛЫЙ ГОД!!!</p>
+          
+          
+          <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aea8a2598779ae119b074f314336c4cd9831d48bac1282feacef490b080b8fe4e&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+    </main>
+</section>
+    <footer>
+        <hr>
+        <p>&copy; 2023 КК365. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>

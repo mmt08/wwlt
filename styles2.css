@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header, footer {
+    width: 80%;
+    height: 140px;
+    margin: 0 auto;
+}
+main{
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.product {
+    margin: 20px;
+    display: flex;
+}
+
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+header {
+    text-align: center;
+    background-color: #9c9c9c;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+hr {
+    border: 1px solid #ffc9c9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20vh;
+    background-color: #9c9c9c;
+}
+
+.current {
+    font-weight: bold;
+  }
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.map{
+ width: 1322;
+ height: 250;
+}
+
+/*************/
+.nav_link{
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 20px;
+        position: relative;
+    
+        color: #fff;
+        text-decoration: none;
+        
+        transition: color 0.2s linear;
+    }
+    
+    .nav_link:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        display: none;
+    
+        background-color: rgb(1, 166, 150);
+    
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;   
+    }
+    
+    .nav_link:hover {
+        color: rgb(0, 230, 207);
+    }
+    
+    .nav_link:hover:after{
+        display: block;
+    } 
